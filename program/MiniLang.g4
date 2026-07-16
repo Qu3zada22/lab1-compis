@@ -16,7 +16,7 @@ expr:   expr ('*'|'/') expr          # MulDiv
 
 MUL : '*' ; // define token for multiplication
 DIV : '/' ; // define token for division
-ADD : '+' ; // define token for addition
+ADD : '+' ; // define token for addition    
 SUB : '-' ; // define token for subtraction
 ID  : [a-zA-Z]+ ; // match identifiers
 INT : [0-9]+ ; // match integers
